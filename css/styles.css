@@ -1,0 +1,102 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+}
+
+body {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfKEp8mc1c9E4C4BX7--u8O09DFlgx-kXDBg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    display: block;
+}
+
+.name {
+    margin: 0px;
+    display: block;
+}
+
+
+
+.profile_picture img {
+    border-radius: 100px;
+}
+
+nav {
+    padding: 0%;
+    margin: 0%;
+    background: black;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    margin: 0%;
+    padding: 0px;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    float: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    display: inline-table;
+}
+
+nav ul li a {
+    display: inline;
+    padding: 10px;
+    color: rgb(32, 145, 239);
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li:hover {
+    background: white;
+}
+
+
+nav ul li a:hover {
+    color: black;
+}
+
+.title {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 10px;
+    margin: 0%;
+}
+
+.table {
+    padding: 25px 0px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.table td {
+    padding: 5px 0px;
+}
+
+.space {
+    margin: 0px 200px;
+    padding: 25px 0px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
